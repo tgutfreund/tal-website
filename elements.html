@@ -5,10 +5,31 @@
     <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Elements</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500"
+      rel="stylesheet"
+    />
     <link href="/styles/reset.css" rel="stylesheet" />
     <link href="/styles/main.css" rel="stylesheet" />
   </head>
   <body>
+    <header class="header" dir="rtl">
+      <div class="logo">האתר של טל</div>
+
+      <button class="menu-button">
+        <img class="menu-icon" src="/icons/menu.svg" alt="תפריט" />
+      </button>
+
+      <nav class="nav">
+        <a class="nav-link" href="/index.html">דף הבית</a>
+        <a class="nav-link" href="/gallery.html">גלריה</a>
+        <a class="nav-link" href="/elements.html">אלמנטים</a>
+        <a class="nav-link" href="https://github.com/product-jam-2027/course/">
+          הקורס
+        </a>
+      </nav>
+    </header>
+
     <header>
       <h1>HTML Elements</h1>
       <p>
@@ -622,5 +643,7 @@
         </form>
       </section>
     </main>
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

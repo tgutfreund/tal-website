@@ -15,6 +15,8 @@ menuButton.addEventListener("click", function () {
 const button = document.querySelector(".button");
 const input = document.querySelector(".input");
 
-button.addEventListener("click", function () {
-  alert("שלום, " + input.value);
-});
+if (button) {
+  button.addEventListener("click", function () {
+    alert("שלום, " + input.value);
+  });
+}
